@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:400px;
+    background:#ffff;
+    padding-bottom: 10px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: rgb(88, 8, 94);
+    font-size: 28px;
+    font-weight: 700;
+}
+.underline{
+    width:39px;
+    height: 6px;
+    background:rgb(117, 6, 124) ;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    width:280px;
+    height: 60px;
+    background: rgb(255, 240, 250);
+    border-radius: 6px;
+}
+.icon{
+    width:25px;
+    height:25px;
+    margin: 0px 30px;
+}
+.input input{
+    height:50px;
+    width:150px;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 15px;
+    color:rgb(28, 26, 27);
+}
+.forgot-pass{
+    padding-left: 62px;
+    margin-top: 20px;
+    color: purple;
+    font-size: 13px;
+}
+.spans{
+    color:rgb(224, 84, 114);
+    cursor: pointer;
+}
+.submit-con{
+    display: flex;
+    gap:15px;
+    margin: 40px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:120px;
+    height:59px;
+    color:aliceblue;
+    background: #4b0041;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    background-color: aliceblue;
+    color:#4b0041;
+}
